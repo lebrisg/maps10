@@ -4,7 +4,7 @@
 "features": [
 { "type": "Feature", "id": 1, "properties": { "Nom": "Grand Palais", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491434, 13.749864 ] } }
 ,
-{ "type": "Feature", "id": 2, "properties": { "Nom": "Villa Tres Calas", "Lieu": "Carrer de la Caleta, 173, 43860 Tres Calas, Tarragona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 0.822596, 40.90714 ] } }
+{ "type": "Feature", "id": 2, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
 ,
 { "type": "Feature", "id": 3, "properties": { "Nom": "PortAventura World", "Lieu": "Av. Pere Mola, Km 2, 43840, Tarragona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 1.153146, 41.086415 ] } }
 ,
