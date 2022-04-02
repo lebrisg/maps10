@@ -62,10 +62,18 @@
             map.setView(perpignan, 17);
           }).addTo(map);
 
- 	  // load travel data
-          //$.getJSON("travel.geojson",function(data){
-          //  L.geoJson(data, { "color": "#FF7800" }).addTo(map);
-          //}); 
+	  // Load food data GeoJSON from an external file
+	  $.getJSON("food.geojson",function(data){
+	    // Add GeoJSON layer to the map once the file is loaded
+	    L.geoJson(data,{
+              //"color": "#FF7800",
+	      pointToLayer: function(feature,latlng){
+	        var marker = L.marker(latlng);
+	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Date);
+	        return marker;
+	      }
+	     }).addTo(map);
+	  });
 
  	  // Load data LightGreen metro line
           $.getJSON("LightGreen.geojson",function(data){
