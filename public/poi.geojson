@@ -8,11 +8,11 @@
 ,
 { "type": "Feature", "id": 3, "properties": { "Nom": "Musée national", "Lieu": "Na Phra That Alley, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491691, 13.758076 ] } }
 ,
-{ "type": "Feature", "id": 4, "properties": { "Nom": "What Pho", "Lieu": "2 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2021"}, "geometry": { "type": "Point", "coordinates": [ 100.493429, 13.746597 ] } }
+{ "type": "Feature", "id": 4, "properties": { "Nom": "What Pho", "Lieu": "2 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.493429, 13.746597 ] } }
 ,
 { "type": "Feature", "id": 5, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
 ,
-{ "type": "Feature", "id": 6, "properties": { "Nom": "Station Service", "Lieu": "TV-3025, PK .5, 43860, L'Ametlla de Mar, Tarragona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 0.798998, 40.887421 ] } }
+{ "type": "Feature", "id": 6, "properties": { "Nom": "Gare Hua Lamphong", "Lieu": "Rong Mueang Rd, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.516647, 13.73877 ] } }
 ,
 { "type": "Feature", "id": 7, "properties": { "Nom": "Station Service/Alas Benzinera", "Lieu": "N-340, 1121, 8 D, 43891, Tarragona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 0.856816, 40.949404 ] } }
 ,
