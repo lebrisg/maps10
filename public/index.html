@@ -89,16 +89,16 @@
           //}); 
 
 	  // Load GeoJSON from an external file
-	  //$.getJSON("poi.geojson",function(data){
+	  $.getJSON("poi.geojson",function(data){
 	    // Add GeoJSON layer to the map once the file is loaded
-	    //L.geoJson(data,{
-	      //pointToLayer: function(feature,latlng){
-	        //var marker = L.marker(latlng);
-	        //marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Date);
-	        //return marker;
-	      //}
-	     //}).addTo(map);
-	  //});
+	    L.geoJson(data,{
+	      pointToLayer: function(feature,latlng){
+	        var marker = L.marker(latlng);
+	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Date);
+	        return marker;
+	      }
+	     }).addTo(map);
+	  });
 	  var popup = L.popup();
           map.on('click', function(e) {
             popup
