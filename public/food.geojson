@@ -2,6 +2,8 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "id": 1, "properties": { "Nom": "Travel"}, "geometry": { "type": "LineString", "coordinates": [ [ 2.349902, 48.853026 ], [ 11.070207, 49.448262 ], [ 11.553167, 48.181844 ], [ 2.349902, 48.853026 ] ] } }
+{ "type": "Feature", "id": 1, "properties": { "Nom": "S&P", "Lieu": "QF3Q+RGH, Phra Borom Maha Ratchawang, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.488902, 13.75459 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "Nom": "Jin Chieng Seng", "Lieu": "57 Maha Rat Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491069, 13.74507 ] } }
 ]
 }
