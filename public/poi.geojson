@@ -4,11 +4,11 @@
 "features": [
 { "type": "Feature", "id": 1, "properties": { "Nom": "Grand Palais", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491434, 13.749864 ] } }
 ,
-{ "type": "Feature", "id": 2, "properties": { "Nom": "Buddha d'émeraude", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.492748, 13.751604 ] } }
+{ "type": "Feature", "id": 2, "properties": { "Nom": "Bouddha d'émeraude", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.492748, 13.751604 ] } }
 ,
-{ "type": "Feature", "id": 3, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
+{ "type": "Feature", "id": 3, "properties": { "Nom": "Musée national", "Lieu": "Na Phra That Alley, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491691, 13.758076 ] } }
 ,
-{ "type": "Feature", "id": 4, "properties": { "Nom": "Pharmacie", "Lieu": "Carrer de Llevant, 43860, Les Tres Cales, Tarragona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 0.809174, 40.908279 ] } }
+{ "type": "Feature", "id": 4, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
 ,
 { "type": "Feature", "id": 5, "properties": { "Nom": "Mercadona", "Lieu": "Carretera TV-3025 Sector 22-B1, 43860, L'Ametlla de Mar, Tarragona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 0.795951, 40.890815 ] } }
 ,
