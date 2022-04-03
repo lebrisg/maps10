@@ -9,5 +9,7 @@
 { "type": "Feature", "id": 3, "properties": { "Nom": "Thipsamai", "Lieu": "313 315 Maha Chai Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.504802, 13.752761 ] } }
 ,
 { "type": "Feature", "id": 4, "properties": { "Nom": "Kaolang Home Kitchen", "Lieu": "2 Si Ayutthaya Rd, Bangkok 10300, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.501074, 13.773644 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "Nom": "Crown Kitchen", "Lieu": "328 Krung Kasem Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.506985, 13.765751 ] } }
 ]
 }
