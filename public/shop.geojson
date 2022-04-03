@@ -5,5 +5,7 @@
 { "type": "Feature", "id": 1, "properties": { "Nom": "Marché de Pratunam (Vêtements)", "Lieu": "Phaya Thai Rd, Bangkok 10400, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.54091, 13.751703 ] } }
 ,
 { "type": "Feature", "id": 2, "properties": { "Nom": "Pantip Plaza (Informatique)", "Lieu": "Phetchaburi Rd, Bangkok 10400, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53760, 13.75098 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "Nom": "EmQuartier", "Lieu": "695 Sukhumvit Rd, Bangkok 10110, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.56920, 13.73154 ] } }
 ]
 }
