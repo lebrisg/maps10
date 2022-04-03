@@ -78,6 +78,22 @@
 	     }).addTo(map);
 	  });
 
+	  // Load shop data GeoJSON from an external file
+	  $.getJSON("shop.geojson", function(data){
+            var shopIcon = L.icon({
+              iconUrl: 'shop.png',
+              iconSize: [14, 16]
+            });
+	    // Add GeoJSON layer to the map once the file is loaded
+	    L.geoJson(data,{
+	      pointToLayer: function(feature, latlng){
+	        var marker = L.marker(latlng, {icon: shopIcon});
+	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Date);
+	        return marker;
+	      }
+	     }).addTo(map);
+	  });
+
  	  // Load data LightGreen metro line
           $.getJSON("LightGreen.geojson",function(data){
             L.geoJson(data, { "color": "#00FF78" }).addTo(map);
