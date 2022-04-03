@@ -11,5 +11,7 @@
 { "type": "Feature", "id": 4, "properties": { "Nom": "Kaolang Home Kitchen", "Lieu": "2 Si Ayutthaya Rd, Bangkok 10300, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.501074, 13.773644 ] } }
 ,
 { "type": "Feature", "id": 5, "properties": { "Nom": "Crown Kitchen", "Lieu": "328 Krung Kasem Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.506985, 13.765751 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "Nom": "Tham Na", "Lieu": "175 Samsen Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.499958, 13.765344 ] } }
 ]
 }
