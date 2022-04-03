@@ -30,7 +30,7 @@
 ,
 { "type": "Feature", "id": 14, "properties": { "Nom": "Jim Thomson's House", "Lieu": "6 Kasem San 2 Alley, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.528378, 13.749228 ] } }
 ,
-{ "type": "Feature", "id": 15, "properties": { "Nom": "Tour Baiyoke II", "Lieu": "Baiyoke Tower II, 222/146 ชั้น LG, Ratchaprarop Rd, Bangkok 10400, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.54028, 13.75439 ] } }
+{ "type": "Feature", "id": 15, "properties": { "Nom": "Roof top Baiyoke II", "Lieu": "222/146 ชั้น LG, Ratchaprarop Rd, Bangkok 10400, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.540631, 13.754788 ] } }
 ,
 { "type": "Feature", "id": 31, "properties": { "Nom": "Bicis Delta natura", "Lieu": "Carrer Major, s/n, 43549 Poble Nou del Delta, Tarragona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 0.68517, 40.644414 ] } }
 ]
