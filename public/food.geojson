@@ -17,5 +17,7 @@
 { "type": "Feature", "id": 7, "properties": { "Nom": "Khinlom Chom Sa Phan", "Lieu": "11, 6 Samsen 3 Alley, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.497077, 13.766704 ] } }
 ,
 { "type": "Feature", "id": 8, "properties": { "Nom": "Cabbages & Condoms", "Lieu": "6 10 Sukhumvit 12 Alley, Bangkok 10110, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.557851, 13.736243 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "Nom": "Han Kook Kwan", "Lieu": "Sukhumvit Soi 17, Bangkok 10110, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.55982, 13.73915 ] } }
 ]
 }
