@@ -20,11 +20,11 @@
 ,
 { "type": "Feature", "id": 9, "properties": { "Nom": "Sea Life", "Lieu": "B2 Floor, Siam Paragon Building, B1, 991 Rama I Rd, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53539, 13.746972 ] } }
 ,
-{ "type": "Feature", "id": 10, "properties": { "Nom": "Stade de boxe Rajadamnern", "Lieu": "8 Ratchadamnoen Nok Rd, Bangkok 10100, Thaïlande", "Metro": "", "Date": "08/2021"}, "geometry": { "type": "Point", "coordinates": [ 100.508809, 13.761239 ] } }
+{ "type": "Feature", "id": 10, "properties": { "Nom": "Stade de boxe Rajadamnern", "Lieu": "8 Ratchadamnoen Nok Rd, Bangkok 10100, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.508809, 13.761239 ] } }
 ,
 { "type": "Feature", "id": 11, "properties": { "Nom": "Musée du Siam", "Lieu": "4 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.494143, 13.744148 ] } }
 ,
-{ "type": "Feature", "id": 14, "properties": { "Nom": "La Boqueria", "Lieu": "La Rambla, 91, 08001 Barcelona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 2.171554, 41.381735 ] } }
+{ "type": "Feature", "id": 12, "properties": { "Nom": "Rattanakosin Exhibition Hall", "Lieu": "100 Ratchadamnoen Klang Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.503879, 13.755908 ] } }
 ,
 { "type": "Feature", "id": 15, "properties": { "Nom": "Parking Las Remblas", "Lieu": "La Rambla, 20, 08002 Barcelona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 2.176157, 41.377972 ] } }
 ,
