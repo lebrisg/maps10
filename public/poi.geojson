@@ -26,7 +26,7 @@
 ,
 { "type": "Feature", "id": 12, "properties": { "Nom": "Rattanakosin Exhibition Hall", "Lieu": "100 Ratchadamnoen Klang Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50396, 13.755903 ] } }
 ,
-{ "type": "Feature", "id": 15, "properties": { "Nom": "Parking Las Remblas", "Lieu": "La Rambla, 20, 08002 Barcelona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 2.176157, 41.377972 ] } }
+{ "type": "Feature", "id": 13, "properties": { "Nom": "Stade de boxe Lumpinee", "Lieu": "6 Ram Inthra Rd, Bangkok 10220, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.608866, 13.867164 ] } }
 ,
 { "type": "Feature", "id": 16, "properties": { "Nom": "Parking Esperanca I Guell", "Lieu": "Carrer de Sant Gugat del valles, 13, 08024 Barcelona", "Metro": "", "Date": "01/07/2021"}, "geometry": { "type": "Point", "coordinates": [ 2.153256, 41.411104 ] } }
 ,
