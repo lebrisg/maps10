@@ -5,5 +5,7 @@
 { "type": "Feature", "id": 1, "properties": { "Nom": "S&P", "Lieu": "QF3Q+RGH, Phra Borom Maha Ratchawang, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.488902, 13.75459 ] } }
 ,
 { "type": "Feature", "id": 2, "properties": { "Nom": "Jin Chieng Seng", "Lieu": "57 Maha Rat Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491069, 13.74507 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "Nom": "Thipsamai", "Lieu": "313 315 Maha Chai Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.504802, 13.752761 ] } }
 ]
 }
