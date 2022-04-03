@@ -64,14 +64,14 @@
 
 	  // Load food data GeoJSON from an external file
 	  $.getJSON("food.geojson", function(data){
-            var shopIcon = L.icon({
-              iconUrl: 'shop.png',
+            var foodIcon = L.icon({
+              iconUrl: 'food.png',
               iconSize: [14, 16]
             });
 	    // Add GeoJSON layer to the map once the file is loaded
 	    L.geoJson(data,{
 	      pointToLayer: function(feature, latlng){
-	        var marker = L.marker(latlng, {icon: shopIcon});
+	        var marker = L.marker(latlng, {icon: foodIcon});
 	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Date);
 	        return marker;
 	      }
