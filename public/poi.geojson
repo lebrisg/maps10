@@ -31,5 +31,7 @@
 { "type": "Feature", "id": 14, "properties": { "Nom": "Jim Thomson's House", "Lieu": "6 Kasem San 2 Alley, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.528378, 13.749228 ] } }
 ,
 { "type": "Feature", "id": 15, "properties": { "Nom": "Roof top Baiyoke II", "Lieu": "222/146 ชั้น LG, Ratchaprarop Rd, Bangkok 10400, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.540631, 13.754788 ] } }
+,
+{ "type": "Feature", "id": 51, "properties": { "Nom": "Universal Studios Singapore", "Lieu": "8 Sentosa Gateway, Singapour 098269", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.82380, 1.25406 ] } }
 ]
 }
