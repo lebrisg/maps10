@@ -19,5 +19,9 @@
 { "type": "Feature", "id": 8, "properties": { "Nom": "Cabbages & Condoms", "Lieu": "6 10 Sukhumvit 12 Alley, Bangkok 10110, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.557851, 13.736243 ] } }
 ,
 { "type": "Feature", "id": 9, "properties": { "Nom": "Han Kook Kwan", "Lieu": "Sukhumvit Soi 17, Bangkok 10110, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.55982, 13.73915 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "Nom": "Somboon Seafood", "Lieu": "169 / 7-12 Thanon Surawong, Suriya Wong, Bang Rak, Bangkok 10500, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.52662, 13.72831 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "Nom": "Bua Restaurant", "Lieu": "5 1 Srinagarindra Rd, Prawet, Bangkok 10250, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.64925, 13.69012 ] } }
 ]
 }
