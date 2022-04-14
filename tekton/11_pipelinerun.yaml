@@ -14,7 +14,7 @@ spec:
   - name: IMAGE
     value: image-registry.openshift-image-registry.svc:5000/maps10/maps-10-git
   workspaces:
-  - name: shared-workspace
+  - name: workspace
     volumeClaimTemplate:
       spec:
         accessModes:
