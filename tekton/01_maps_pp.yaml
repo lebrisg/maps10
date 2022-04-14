@@ -1,0 +1,81 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: pp-maps
+spec:
+  params:
+  - name: GIT_REPO_NAME
+    type: string
+    description: Name of the application to be built
+  - name: GIT_REPO_URL
+    type: string
+    description: Url of the git repository
+  - name: GIT_REVISION
+    type: string
+    description: Revision to be used from repo of the code for deployment
+  - name: IMAGE_NAME
+    type: string
+    description: Location of the repo where image has to be pushed
+  - name: PATH_CONTEXT
+    type: string
+  - name: VERSION
+    type: string
+    description: Type of image used
+  workspaces:
+  - name: workspace
+  tasks:
+  - name: fetch-repository
+    params:
+    - name: url
+      value: $(params.GIT_REPO_URL)
+    - name: revision
+      value: $(params.GIT_REVISION)
+    - name: subdirectory
+      value: ''
+    - name: deleteExisting
+      value: 'true'
+    taskRef:
+      kind: ClusterTask
+      name: git-clone
+    workspaces:
+    - name: output
+      workspace: workspace
+  - name: build
+    params:
+    - name: IMAGE
+      value: $(params.IMAGE_NAME)
+    - name: TLSVERIFY
+      value: 'false'
+    - name: PATH_CONTEXT
+      value: $(params.PATH_CONTEXT)
+    - name: VERSION
+      value: $(params.VERSION)
+    runAfter:
+    - fetch-repository
+    taskRef:
+      kind: ClusterTask
+      name: s2i-nodejs
+    workspaces:
+    - name: source
+      workspace: workspace
+  - name: deploy
+    params:
+    - name: SCRIPT
+      value: oc rollout status dc/$(params.GIT_REPO_NAME)
+    runAfter:
+    - build
+    taskRef:
+      kind: ClusterTask
+      name: openshift-client
+  - name: cleanup
+    params:
+    - name: SCRIPT
+      value: |
+        oc get pr --sort-by=.metadata.creationTimestamp -o name | head -n-1 | (while read -r NAME; do oc delete "$NAME"; done)
+        oc get pod | awk '{if ($3 == "Completed") system("oc delete pod " $1 )}' 
+        oc get replicationcontroller | awk '{if ($4 == "0") system("oc delete replicationcontroller " $1 )}'
+    runAfter:
+    - deploy
+    taskRef:
+      kind: ClusterTask
+      name: openshift-client
