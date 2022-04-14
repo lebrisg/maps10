@@ -1,0 +1,24 @@
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: maps-10-git-pr 
+spec:
+  serviceAccountName: pipeline
+  pipelineRef:
+    name: maps-10-git
+  params:
+  - name: deployment-name
+    value: maps-10-git 
+  - name: git-url
+    value: https://github.com/lebrisg/maps10.git
+  - name: IMAGE
+    value: image-registry.openshift-image-registry.svc:5000/maps10/maps-10-git
+  workspaces:
+  - name: shared-workspace
+    volumeClaimTemplate:
+      spec:
+        accessModes:
+        - ReadWriteOnce
+        resources:
+          requests:
+            storage: 500Mi
