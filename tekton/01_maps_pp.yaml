@@ -1,7 +1,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: pp-maps
+  name: pp-maps10
 spec:
   params:
   - name: GIT_REPO_NAME
