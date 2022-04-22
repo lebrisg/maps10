@@ -32,6 +32,8 @@
 ,
 { "type": "Feature", "id": 15, "properties": { "Nom": "Roof top Baiyoke II", "Lieu": "222/146 ชั้น LG, Ratchaprarop Rd, Bangkok 10400, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.540631, 13.754788 ] } }
 ,
+{ "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
+,
 { "type": "Feature", "id": 51, "properties": { "Nom": "Universal Studios Singapore", "Lieu": "8 Sentosa Gateway, Singapour 098269", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.82380, 1.25406 ] } }
 ,
 { "type": "Feature", "id": 52, "properties": { "Nom": "Gardens by the Bay", "Lieu": "18 Marina Gardens Dr, Singapour 018953", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.86357, 1.28167 ] } }
