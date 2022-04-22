@@ -21,5 +21,7 @@
 { "type": "Feature", "id": 9, "properties": { "Nom": "Han Kook Kwan", "Lieu": "Sukhumvit Soi 17, Bangkok 10110, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.55982, 13.73915 ] } }
 ,
 { "type": "Feature", "id": 10, "properties": { "Nom": "Somboon Seafood", "Lieu": "169 / 7-12 Thanon Surawong, Suriya Wong, Bang Rak, Bangkok 10500, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.52662, 13.72831 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "Nom": "Olive Tree", "Lieu": "342 Soi Wat Rakhang (Arunamarin 18 Prannok Road Siri Rat, Bangkok 10700, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.48656, 13.75481 ] } }
 ]
 }
