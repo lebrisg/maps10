@@ -39,5 +39,7 @@
 { "type": "Feature", "id": 52, "properties": { "Nom": "Gardens by the Bay", "Lieu": "18 Marina Gardens Dr, Singapour 018953", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.86357, 1.28167 ] } }
 ,
 { "type": "Feature", "id": 53, "properties": { "Nom": "Southern Ridges", "Lieu": "7RH5+JQ Singapour", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.80947, 1.27908 ] } }
+,
+{ "type": "Feature", "id": 54, "properties": { "Nom": "Botanic Gardens", "Lieu": "1 Cluny Rd, Botanical Garden, Singapour 259569", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.81487, 1.30842 ] } }
 ]
 }
