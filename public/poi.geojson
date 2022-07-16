@@ -8,7 +8,7 @@
 ,
 { "type": "Feature", "id": 3, "properties": { "Nom": "Musée national", "Lieu": "Na Phra That Alley, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491691, 13.758076 ] } }
 ,
-{ "type": "Feature", "id": 4, "properties": { "Nom": "What Pho (monument+massage)", "Lieu": "2 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.493429, 13.746597 ] } }
+{ "type": "Feature", "id": 4, "properties": { "Nom": "Wat Pho (monument+massage)", "Lieu": "2 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.493429, 13.746597 ] } }
 ,
 { "type": "Feature", "id": 5, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
 ,
@@ -22,7 +22,7 @@
 ,
 { "type": "Feature", "id": 10, "properties": { "Nom": "Stade de boxe Rajadamnern", "Lieu": "8 Ratchadamnoen Nok Rd, Bangkok 10100, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.508809, 13.761239 ] } }
 ,
-{ "type": "Feature", "id": 11, "properties": { "Nom": "Musée du Siam", "Lieu": "4 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.494143, 13.744148 ] } }
+{ "type": "Feature", "id": 11, "properties": { "Nom": "Musée du Siam", "Lieu": "4 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Metro": "Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.494143, 13.744148 ] } }
 ,
 { "type": "Feature", "id": 12, "properties": { "Nom": "Rattanakosin Exhibition Hall", "Lieu": "100 Ratchadamnoen Klang Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50396, 13.755903 ] } }
 ,
@@ -31,6 +31,8 @@
 { "type": "Feature", "id": 14, "properties": { "Nom": "Jim Thomson's House", "Lieu": "6 Kasem San 2 Alley, Bangkok 10330, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.528378, 13.749228 ] } }
 ,
 { "type": "Feature", "id": 15, "properties": { "Nom": "Roof top Baiyoke II", "Lieu": "222/146 ชั้น LG, Ratchaprarop Rd, Bangkok 10400, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.540631, 13.754788 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "Nom": "Wat Saket / Golden Mount", "Lieu": "344 Thanon Chakkraphatdi Phong, Bangkok 10100, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.506685, 13.753871 ] } }
 ,
 { "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
 ,
