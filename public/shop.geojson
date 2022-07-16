@@ -9,5 +9,7 @@
 { "type": "Feature", "id": 3, "properties": { "Nom": "EmQuartier", "Lieu": "695 Sukhumvit Rd, Bangkok 10110, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.56920, 13.73154 ] } }
 ,
 { "type": "Feature", "id": 4, "properties": { "Nom": "Marché des Fleurs", "Lieu": "74/28 Chakkraphet Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.49639, 13.741819 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "Nom": "Marché Phahurat (Indien)", "Lieu": "Wang Burapha Phirom, Bangkok 10170, Thaïlande", "Metro": "Sam Yot", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.500011, 13.74433 ] } }
 ]
 }

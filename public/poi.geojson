@@ -34,6 +34,8 @@
 ,
 { "type": "Feature", "id": 16, "properties": { "Nom": "Wat Saket / Golden Mount", "Lieu": "344 Thanon Chakkraphatdi Phong, Bangkok 10100, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.506685, 13.753871 ] } }
 ,
+{ "type": "Feature", "id": 17, "properties": { "Nom": "Wat Benchama Bophit", "Lieu": "Khwaeng Dusit, Bangkok 10300, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.51412, 13.7664 ] } }
+,
 { "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
 ,
 { "type": "Feature", "id": 51, "properties": { "Nom": "Universal Studios Singapore", "Lieu": "8 Sentosa Gateway, Singapour 098269", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.82380, 1.25406 ] } }
