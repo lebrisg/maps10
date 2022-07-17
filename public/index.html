@@ -89,6 +89,7 @@
  	  // Load data LightGreen metro line
           $.getJSON("LightGreen.geojson",function(data){
             L.geoJson(data, { "color": "#00FF78" }).addTo(map);
+          }); 
 
  	  // Load data DarkBlue metro line
           $.getJSON("DarkBlue.geojson",function(data){
