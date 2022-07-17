@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 1, "properties": { "Nom": "DarkBlue"}, "geometry": { "type": "LineString", 
+  "coordinates": [ [ 100.751259, 13.694212 ], [ 100.757396, 13.717373 ]
+ ] } }
+]
+}
