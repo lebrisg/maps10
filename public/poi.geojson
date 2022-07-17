@@ -40,7 +40,7 @@
 ,
 { "type": "Feature", "id": 19, "properties": { "Nom": "Chinatown", "Lieu": "1001 Song Wat Rd, Bangkok, Thaïlande", "Metro": "Hua Lamphong", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50866, 13.73756 ] } }
 ,
-{ "type": "Feature", "id": 20, "properties": { "Nom": "Stade de Channel 7", "Lieu": "998, 1 Soi Phahon Yothin 18/1, Chatuchak, Bangkok 10900, Thaïlande", "Metro": "Mo Chit", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.55766, 13.80322 ] } }
+{ "type": "Feature", "id": 20, "properties": { "Nom": "Stade de Channel 7", "Lieu": "998, 1 Soi Phahon Yothin 18/1, Chatuchak, Bangkok 10900, Thaïlande", "Metro": "Mo Chit", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.557089, 13.803273 ] } }
 ,
 { "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
 ,
