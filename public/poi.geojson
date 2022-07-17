@@ -38,6 +38,8 @@
 ,
 { "type": "Feature", "id": 18, "properties": { "Nom": "Suan Pakkad Palace", "Lieu": "352 Thanon Si Ayutthaya, Bangkok 10400, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53743, 13.75675 ] } }
 ,
+{ "type": "Feature", "id": 19, "properties": { "Nom": "Chinatown", "Lieu": "1001 Song Wat Rd, Bangkok, Thaïlande", "Metro": "Hua Lamphong", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50866, 13.73756 ] } }
+,
 { "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
 ,
 { "type": "Feature", "id": 51, "properties": { "Nom": "Universal Studios Singapore", "Lieu": "8 Sentosa Gateway, Singapour 098269", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.82380, 1.25406 ] } }
