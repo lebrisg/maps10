@@ -91,6 +91,11 @@
             L.geoJson(data, { "color": "#00FF78" }).addTo(map);
           }); 
 
+ 	  // Load data Pink metro line
+          $.getJSON("Pink.geojson",function(data){
+            L.geoJson(data, { "color": "#6854D8" }).addTo(map);
+          });
+ 
  	  // Load data DarkBlue metro line
           $.getJSON("DarkBlue.geojson",function(data){
             L.geoJson(data, { "color": "#6854D8" }).addTo(map);
