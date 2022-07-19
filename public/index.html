@@ -101,10 +101,10 @@
             L.geoJson(data, { "color": "#6854D8" }).addTo(map);
           }); 
 
- 	  // load data lane 2
-          //$.getJSON("lane2.geojson",function(data){
-          //  L.geoJson(data, { "color": "#FF00FF" }).addTo(map);
-          //}); 
+ 	  // Load data DarkGreen metro line
+          $.getJSON("DarkGreen.geojson",function(data){
+            L.geoJson(data, { "color": "#FF00FF" }).addTo(map);
+          }); 
 
 	  // Load GeoJSON from an external file
 	  $.getJSON("poi.geojson",function(data){
