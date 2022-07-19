@@ -3,7 +3,7 @@
                                                                                 
 "features": [
 { "type": "Feature", "id": 1, "properties": { "Nom": "LightGreen"}, "geometry": { "type": "LineString", 
-  "coordinates": [ [ 100.607734, 13.567701 ], [ 100.604988, 13.573463 ]
+  "coordinates": [ [ 100.607734, 13.567701 ], [ 100.604988, 13.573463 ], [ 100.60472, 13.574334 ]
  ] } }
 ]
 }
