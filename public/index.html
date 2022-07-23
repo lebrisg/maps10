@@ -86,6 +86,22 @@
 	     }).addTo(map);
 	  });
 
+	  // Load boat data GeoJSON from an external file
+	  $.getJSON("boats.geojson", function(data){
+            var boatIcon = L.icon({
+              iconUrl: 'boat.png',
+              iconSize: [20,20]
+            });
+	    // Add GeoJSON layer to the map once the file is loaded
+	    L.geoJson(data,{
+	      pointToLayer: function(feature, latlng){
+	        var marker = L.marker(latlng,{icon: boatIcon});
+	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Date);
+	        return marker;
+	      }
+	   }).addTo(map);
+          });
+
  	  // Load data LightGreen metro line
           $.getJSON("LightGreen.geojson",function(data){
             L.geoJson(data, { "color": "#90EE90" }).addTo(map);
