@@ -44,6 +44,8 @@
 ,
 { "type": "Feature", "id": 21, "properties": { "Nom": "Cotton Sala Daeng Hotel", "Lieu": "14/1 Soi Sathon 2, Bangkok 10500, Thaïlande", "Metro": "Lumphini", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.54179, 13.72600 ] } }
 ,
+{ "type": "Feature", "id": 22, "properties": { "Nom": "Benchakitti Forest Park", "Lieu": "Rama IV Rd, Khlong Toei, Bangkok 10110, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.55402, 13.72864 ] } }
+,
 { "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
 ,
 { "type": "Feature", "id": 51, "properties": { "Nom": "Universal Studios Singapore", "Lieu": "8 Sentosa Gateway, Singapour 098269", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.82380, 1.25406 ] } }
