@@ -122,6 +122,11 @@
             L.geoJson(data, { "color": "#006400" }).addTo(map);
           }); 
 
+ 	  // Load data Orange boat line
+          $.getJSON("Orange.geojson",function(data){
+            L.geoJson(data, { "color": "#FFA500" }).addTo(map);
+          }); 
+
 	  // Load GeoJSON from an external file
 	  $.getJSON("poi.geojson",function(data){
 	    // Add GeoJSON layer to the map once the file is loaded
