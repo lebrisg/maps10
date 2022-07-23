@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "id": 21, "properties": { "Nom": "Thonburi Railway", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.48780774, 13.759201 ] } },
+{ "type": "Feature", "id": 22, "properties": { "Nom": "Tha Phra Chan", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.488698, 13.756575 ] } }
+]
+}
