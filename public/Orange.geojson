@@ -1,8 +1,8 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type": "Feature", "id": 1, "properties": { "Nom": "Orange"}, "geometry": { "type": "LineString", 
-  "coordinates": [ [ 100.500097, 13.772045 ], [ 100.494035, 13.763552 ], [ 100.490688, 13.762984 ], [ 100.48780774, 13.759201 ] ]
+{ "type": "Feature", "id": 1, "properties": { "Nom": "Orange" }, "geometry": { "type": "LineString", 
+  "coordinates": [ [ 100.500097, 13.772045 ], [ 100.494035, 13.763552 ], [ 100.490688, 13.762984 ], [ 100.48780774, 13.759201 ]
  ] } }
 ]
 }
