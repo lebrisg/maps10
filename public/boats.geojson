@@ -7,9 +7,33 @@
   "geometry": { "type": "Point", "coordinates": [ 100.494035, 13.763552 ] } },
 { "type": "Feature", "id": 13, "properties": { "Nom": "Phra Pinklao Bridge", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.490688, 13.762984 ] } },
-{ "type": "Feature", "id": 21, "properties": { "Nom": "Thonburi Railway", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+{ "type": "Feature", "id": 14, "properties": { "Nom": "Thonburi Railway", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.48780774, 13.759201 ] } },
-{ "type": "Feature", "id": 22, "properties": { "Nom": "Wang Lang (Siriraj)", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+{ "type": "Feature", "id": 15, "properties": { "Nom": "Wang Lang (Siriraj)", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.486831, 13.755689 ] } }
+{ "type": "Feature", "id": 16, "properties": { "Nom": "Tha Chang Pier", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.488269, 13.752553 ] } }
+{ "type": "Feature", "id": 17, "properties": { "Nom": "Tha Tian", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.489873, 13.746138 ] } }
+{ "type": "Feature", "id": 18, "properties": { "Nom": "Wat Arun Pier", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.489224, 13.744971 ] } }
+{ "type": "Feature", "id": 19, "properties": { "Nom": "Yodpiman", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.494695, 13.74098 ] } }
+{ "type": "Feature", "id": 20, "properties": { "Nom": "Memorial Bridge", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.49822, 13.739739 ] } }
+{ "type": "Feature", "id": 21, "properties": { "Nom": "Ratchawongse", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.504737, 13.738353 ] } }
+{ "type": "Feature", "id": 22, "properties": { "Nom": "Marine Dept", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.511878, 13.732496 ] } }
+{ "type": "Feature", "id": 23, "properties": { "Nom": "Si Phraya", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.51317, 13.728489 ] } }
+{ "type": "Feature", "id": 24, "properties": { "Nom": "Oriental", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.513519, 13.723314 ] } }
+{ "type": "Feature", "id": 25, "properties": { "Nom": "Sathorn/Saphan Taksin", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.512709, 13.718864 ] } }
+{ "type": "Feature", "id": 26, "properties": { "Nom": "Wat Worachanyawas", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.506862, 13.709545 ] } }
+{ "type": "Feature", "id": 27, "properties": { "Nom": "Wat Rajsingkorn Asiatique", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.503852, 13.706538 ] } }
 ]
 }
