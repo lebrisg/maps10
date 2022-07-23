@@ -42,6 +42,8 @@
 ,
 { "type": "Feature", "id": 20, "properties": { "Nom": "Stade de Channel 7", "Lieu": "998, 1 Soi Phahon Yothin 18/1, Chatuchak, Bangkok 10900, Thaïlande", "Metro": "Mo Chit", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.557089, 13.803273 ] } }
 ,
+{ "type": "Feature", "id": 21, "properties": { "Nom": "Cotton Sala Daeng Hotel", "Lieu": "14/1 Soi Sathon 2, Bangkok 10500, Thaïlande", "Metro": "Lumphini", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.54179, 13.72600 ] } }
+,
 { "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
 ,
 { "type": "Feature", "id": 51, "properties": { "Nom": "Universal Studios Singapore", "Lieu": "8 Sentosa Gateway, Singapour 098269", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.82380, 1.25406 ] } }
