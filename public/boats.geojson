@@ -1,9 +1,15 @@
 {
 "type": "FeatureCollection",
 "features": [
+{ "type": "Feature", "id": 11, "properties": { "Nom": "Thewes", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.500097, 13.772045 ] } },
+{ "type": "Feature", "id": 12, "properties": { "Nom": "Phra Arthit", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.494035, 13.763552 ] } },
+{ "type": "Feature", "id": 13, "properties": { "Nom": "Phra Pinklao Bridge", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.490688, 13.762984 ] } },
 { "type": "Feature", "id": 21, "properties": { "Nom": "Thonburi Railway", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.48780774, 13.759201 ] } },
-{ "type": "Feature", "id": 22, "properties": { "Nom": "Tha Phra Chan", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
-  "geometry": { "type": "Point", "coordinates": [ 100.488698, 13.756575 ] } }
+{ "type": "Feature", "id": 22, "properties": { "Nom": "Wang Lang (Siriraj)", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.486831, 13.755689 ] } }
 ]
 }
