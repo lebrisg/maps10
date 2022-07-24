@@ -22,6 +22,16 @@
 { "type": "Feature", "id": 10, "properties": { "Nom": "Sam Yot", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.502168, 13.747066 ] } },
 { "type": "Feature", "id": 11, "properties": { "Nom": "Wat Mangkon", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
-  "geometry": { "type": "Point", "coordinates": [ 100.509903, 13.742194 ] } }
+  "geometry": { "type": "Point", "coordinates": [ 100.509903, 13.742194 ] } },
+{ "type": "Feature", "id": 12, "properties": { "Nom": "Hua Lamphong", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.517151, 13.73753 ] } },
+{ "type": "Feature", "id": 13, "properties": { "Nom": "Sam Yan", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.530261, 13.73223 ] } },
+{ "type": "Feature", "id": 14, "properties": { "Nom": "Si Lom", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.53731, 13.729343 ] } },
+{ "type": "Feature", "id": 15, "properties": { "Nom": "Lumphini", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.545716, 13.72555 ] } },
+{ "type": "Feature", "id": 16, "properties": { "Nom": "cwKhlong Toei", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.55401, 13.722303 ] } }
 ]
 }
