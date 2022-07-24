@@ -68,7 +68,7 @@
 { "type": "Feature", "id": 66, "properties": { "Nom": "Thong Lo Boat Station", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.58589, 13.743189 ] } },
 { "type": "Feature", "id": 67, "properties": { "Nom": "Charn Issara", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
-  "geometry": { "type": "Point", "coordinates": [ 100.588455, 13.72694 ] } },
+  "geometry": { "type": "Point", "coordinates": [ 100.588455, 13.742694 ] } },
 { "type": "Feature", "id": 68, "properties": { "Nom": "Vijit School", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.594071, 13.741485 ] } },
 { "type": "Feature", "id": 69, "properties": { "Nom": "Klong Tan", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
