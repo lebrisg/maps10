@@ -77,6 +77,21 @@
 { "type": "Feature", "id": 111, "properties": { "Nom": "Ratchadamri", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.539461, 13.739458 ] } },
 { "type": "Feature", "id": 112, "properties": { "Nom": "National Stadium", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
-  "geometry": { "type": "Point", "coordinates": [ 100.529081, 13.746508 ] } }
+  "geometry": { "type": "Point", "coordinates": [ 100.529081, 13.746508 ] } },
+
+{ "type": "Feature", "id": 151, "properties": { "Nom": "Kheha", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.607686, 13.567696 ] } },
+{ "type": "Feature", "id": 152, "properties": { "Nom": "Sai Luat", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.60546, 13.577775 ] } },
+{ "type": "Feature", "id": 153, "properties": { "Nom": "Phraek Sa", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.607906, 13.584189 ] } },
+{ "type": "Feature", "id": 154, "properties": { "Nom": "Srinagarindra", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.609038, 13.591995 ] } },
+{ "type": "Feature", "id": 155, "properties": { "Nom": "Paknam", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.597091, 13.602126 ] } },
+{ "type": "Feature", "id": 156, "properties": { "Nom": "Royal Thai Naval Academy", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.594908, 13.608409 ] } },
+{ "type": "Feature", "id": 157, "properties": { "Nom": "Chang Erawan", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.59016, 13.621594 ] } }
 ]
 }
