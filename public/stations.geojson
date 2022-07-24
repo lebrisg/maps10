@@ -16,6 +16,12 @@
 { "type": "Feature", "id": 7, "properties": { "Nom": "Tha Phra", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.474085, 13.729656 ] } },
 { "type": "Feature", "id": 8, "properties": { "Nom": "Itsaraphap", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
-  "geometry": { "type": "Point", "coordinates": [ 100.485705, 13.738327 ] } }
+  "geometry": { "type": "Point", "coordinates": [ 100.485705, 13.738327 ] } },
+{ "type": "Feature", "id": 9, "properties": { "Nom": "Sanam Chai", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.494685, 13.744346 ] } },
+{ "type": "Feature", "id": 10, "properties": { "Nom": "Sam Yot", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.502168, 13.747066 ] } },
+{ "type": "Feature", "id": 11, "properties": { "Nom": "Wat Mangkon", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.509903, 13.742194 ] } }
 ]
 }
