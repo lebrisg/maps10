@@ -52,6 +52,21 @@
 { "type": "Feature", "id": 26, "properties": { "Nom": "Lat Phrao", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.572892, 13.806529 ] } },
 { "type": "Feature", "id": 27, "properties": { "Nom": "Phahon Yothin", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
-  "geometry": { "type": "Point", "coordinates": [ 100.561568, 13.812967 ] } }
+  "geometry": { "type": "Point", "coordinates": [ 100.561568, 13.812967 ] } },
+
+{ "type": "Feature", "id": 101, "properties": { "Nom": "Bang Wa", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.457815, 13.720797 ] } },
+{ "type": "Feature", "id": 102, "properties": { "Nom": "Wutthakat", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.468968, 13.713006 ] } },
+{ "type": "Feature", "id": 103, "properties": { "Nom": "Pho Nimit", "Lieu": "", "Metro": "", "Date": "08/08/2022" },
+  "geometry": { "type": "Point", "coordinates": [ 100.485941, 13.719234 ] } },
+{ "type": "Feature", "id": 104, "properties": { "Nom": "Wongwian Yai", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.49521, 13.721089 ] } },
+{ "type": "Feature", "id": 105, "properties": { "Nom": "Krung Thon Buri", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.502715, 13.70938 ] } },
+{ "type": "Feature", "id": 106, "properties": { "Nom": "Saphan Taksin", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.514216, 13.718806 ] } },
+{ "type": "Feature", "id": 107, "properties": { "Nom": "Surasak", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.521571, 13.719322 ] } }
 ]
 }
