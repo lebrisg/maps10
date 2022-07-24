@@ -8,6 +8,14 @@
 { "type": "Feature", "id": 3, "properties": { "Nom": "Phasi Charoen", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.434281, 13.712881 ] } },
 { "type": "Feature", "id": 4, "properties": { "Nom": "Phetkasem", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
-  "geometry": { "type": "Point", "coordinates": [ 100.445386, 13.715528 ] } }
+  "geometry": { "type": "Point", "coordinates": [ 100.445386, 13.715528 ] } },
+{ "type": "Feature", "id": 5, "properties": { "Nom": "Bang Wa", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.457032, 13.72026 ] } },
+{ "type": "Feature", "id": 6, "properties": { "Nom": "Bang Phai", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.465191, 13.724659 ] } },
+{ "type": "Feature", "id": 7, "properties": { "Nom": "Tha Phra", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.474085, 13.729656 ] } },
+{ "type": "Feature", "id": 8, "properties": { "Nom": "Itsaraphap", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.485705, 13.738327 ] } }
 ]
 }
