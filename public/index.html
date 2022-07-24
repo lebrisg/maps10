@@ -127,6 +127,11 @@
             L.geoJson(data, { "color": "#FFA500" }).addTo(map);
           }); 
 
+ 	  // Load data LightBlue boat line
+          $.getJSON("LightBlue.geojson",function(data){
+            L.geoJson(data, { "color": "#ADD8E6" }).addTo(map);
+          }); 
+
 	  // Load GeoJSON from an external file
 	  $.getJSON("poi.geojson",function(data){
 	    // Add GeoJSON layer to the map once the file is loaded
