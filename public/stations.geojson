@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "id": 1, "properties": { "Nom": "Lak Song", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.409439, 13.710859 ] } },
+]
+}
