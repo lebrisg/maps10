@@ -60,6 +60,18 @@
 { "type": "Feature", "id": 62, "properties": { "Nom": "Prasan Mit", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.565742, 13.747389 ] } },
 { "type": "Feature", "id": 63, "properties": { "Nom": "Ital-Thai Tower", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
-  "geometry": { "type": "Point", "coordinates": [ 100.573483, 13.745925 ] } }
+  "geometry": { "type": "Point", "coordinates": [ 100.573483, 13.745925 ] } },
+{ "type": "Feature", "id": 64, "properties": { "Nom": "Wat Mai Chong Lom Pier", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.574373, 13.745706 ] } },
+{ "type": "Feature", "id": 65, "properties": { "Nom": "Baan Don Mosque", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.581454, 13.744148 ] } },
+{ "type": "Feature", "id": 66, "properties": { "Nom": "Thong Lo Boat Station", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.58589, 13.743189 ] } },
+{ "type": "Feature", "id": 67, "properties": { "Nom": "Charn Issara", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.588455, 13.72694 ] } },
+{ "type": "Feature", "id": 68, "properties": { "Nom": "Vijit School", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.594071, 13.741485 ] } },
+{ "type": "Feature", "id": 69, "properties": { "Nom": "Klong Tan", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.598266, 13.741912 ] } }
 ]
 }
