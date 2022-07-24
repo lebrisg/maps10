@@ -1,13 +1,13 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type": "Feature", "id": 1, "properties": { "Nom": "Lak Song", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+{ "type": "Feature", "id": 1, "properties": { "Nom": "Lak Song", "Lieu": "", "Metro": "", "Date": "08/08/2022" },
   "geometry": { "type": "Point", "coordinates": [ 100.409439, 13.710859 ] } },
-{ "type": "Feature", "id": 2 "properties": { "Nom": "Bang Khae", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+{ "type": "Feature", "id": 2, "properties": { "Nom": "Bang Khae", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.422276, 13.711901 ] } },
-{ "type": "Feature", "id": 3 "properties": { "Nom": "Phasi Charoen", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+{ "type": "Feature", "id": 3, "properties": { "Nom": "Phasi Charoen", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.434281, 13.712881 ] } },
-{ "type": "Feature", "id": 4 "properties": { "Nom": "Phetkasem", "Lieu": "", "Metro": "", "Date": "08/08/2022"}, 
+{ "type": "Feature", "id": 4, "properties": { "Nom": "Phetkasem", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.445386, 13.715528 ] } }
 ]
 }
