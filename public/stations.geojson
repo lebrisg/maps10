@@ -94,6 +94,21 @@
 { "type": "Feature", "id": 156, "properties": { "Nom": "Royal Thai Naval Academy", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.594908, 13.608409 ] } },
 { "type": "Feature", "id": 157, "properties": { "Nom": "Chang Erawan", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
-  "geometry": { "type": "Point", "coordinates": [ 100.59016, 13.621594 ] } }
+  "geometry": { "type": "Point", "coordinates": [ 100.59016, 13.621594 ] } },
+
+{ "type": "Feature", "id": 201, "properties": { "Nom": "Suvarnabhumi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.751286, 13.694265 ] } },
+{ "type": "Feature", "id": 202, "properties": { "Nom": "Lat Krabang", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.748599, 13.727676 ] } },
+{ "type": "Feature", "id": 203, "properties": { "Nom": "Ban Thap Chang", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.690802, 13.732887 ] } },
+{ "type": "Feature", "id": 204, "properties": { "Nom": "Hua Mak", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.645264, 13.738015 ] } },
+{ "type": "Feature", "id": 205, "properties": { "Nom": "Ramkhamhaeng", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.600154, 13.743001 ] } },
+{ "type": "Feature", "id": 206, "properties": { "Nom": "Makkasan", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.561144, 13.750911 ] } },
+{ "type": "Feature", "id": 207, "properties": { "Nom": "Phaya Thai", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.534912, 13.756737 ] } }
 ]
 }
