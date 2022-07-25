@@ -77,8 +77,6 @@
   "geometry": { "type": "Point", "coordinates": [ 100.469316, 13.755809 ] } },
 { "type": "Feature", "id": 38, "properties": { "Nom": "Charan 13", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.470711, 13.740104 ] } },
-{ "type": "Feature", "id": 39, "properties": { "Nom": "Tha Phra", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
-  "geometry": { "type": "Point", "coordinates": [ 100.474085, 13.729656 ] } },
 
 { "type": "Feature", "id": 101, "properties": { "Nom": "Bang Wa", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.457815, 13.720797 ] } },
