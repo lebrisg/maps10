@@ -137,6 +137,12 @@
   "geometry": { "type": "Point", "coordinates": [ 100.601072, 13.705658 ] } },
 { "type": "Feature", "id": 166, "properties": { "Nom": "Phra Khanong", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.591158, 13.715231 ] } },
+{ "type": "Feature", "id": 167, "properties": { "Nom": "Ekkamai", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.585118, 13.71951 ] } },
+{ "type": "Feature", "id": 168, "properties": { "Nom": "Thong Lo", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.57845, 13.724257 ] } },
+{ "type": "Feature", "id": 169, "properties": { "Nom": "Phrom Phong", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.569583, 13.730495 ] } },
 
 { "type": "Feature", "id": 201, "properties": { "Nom": "Suvarnabhumi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.751286, 13.694265 ] } },
