@@ -143,6 +143,8 @@
   "geometry": { "type": "Point", "coordinates": [ 100.57845, 13.724257 ] } },
 { "type": "Feature", "id": 169, "properties": { "Nom": "Phrom Phong", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.569583, 13.730495 ] } },
+{ "type": "Feature", "id": 170, "properties": { "Nom": "Asok", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.560409, 13.736983 ] } },
 
 { "type": "Feature", "id": 201, "properties": { "Nom": "Suvarnabhumi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.751286, 13.694265 ] } },
