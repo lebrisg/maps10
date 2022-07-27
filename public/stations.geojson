@@ -127,6 +127,10 @@
   "geometry": { "type": "Point", "coordinates": [ 100.601796, 13.661146 ] } },
 { "type": "Feature", "id": 161, "properties": { "Nom": "Bang Na", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.604607, 13.66811 ] } },
+{ "type": "Feature", "id": 162, "properties": { "Nom": "Udom Suk", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.609408, 13.679874 ] } },
+{ "type": "Feature", "id": 163, "properties": { "Nom": "Punnawithi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.608974, 13.689298 ] } },
 
 { "type": "Feature", "id": 201, "properties": { "Nom": "Suvarnabhumi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.751286, 13.694265 ] } },
