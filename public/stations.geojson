@@ -145,6 +145,12 @@
   "geometry": { "type": "Point", "coordinates": [ 100.569583, 13.730495 ] } },
 { "type": "Feature", "id": 170, "properties": { "Nom": "Asok", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.560409, 13.736983 ] } },
+{ "type": "Feature", "id": 171, "properties": { "Nom": "Nana", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.555345, 13.740646 ] } },
+{ "type": "Feature", "id": 172, "properties": { "Nom": "Phloen Chit", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.54916, 13.743064 ] } },
+{ "type": "Feature", "id": 173, "properties": { "Nom": "Chit Lom", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.543018, 13.744132 ] } },
 
 { "type": "Feature", "id": 201, "properties": { "Nom": "Suvarnabhumi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.751286, 13.694265 ] } },
