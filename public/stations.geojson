@@ -151,6 +151,12 @@
   "geometry": { "type": "Point", "coordinates": [ 100.54916, 13.743064 ] } },
 { "type": "Feature", "id": 173, "properties": { "Nom": "Chit Lom", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.543018, 13.744132 ] } },
+{ "type": "Feature", "id": 174, "properties": { "Nom": "Siam", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.53422, 13.745622 ] } },
+{ "type": "Feature", "id": 175, "properties": { "Nom": "Ratchathewi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.531522, 13.751839 ] } },
+{ "type": "Feature", "id": 176, "properties": { "Nom": "Thaya Thai", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.533791, 13.756877 ] } },
 
 { "type": "Feature", "id": 201, "properties": { "Nom": "Suvarnabhumi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.751286, 13.694265 ] } },
