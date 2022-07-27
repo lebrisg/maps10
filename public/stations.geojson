@@ -193,9 +193,9 @@
   "geometry": { "type": "Point", "coordinates": [ 100.609038, 13.896499 ] } },
 { "type": "Feature", "id": 194, "properties": { "Nom": "Bhumibol Adulyadej Hospital", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.617396, 13.910704 ] } },
-{ "type": "Feature", "id": 195, "properties": { "Nom": "Royal Thai Air Force", Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+{ "type": "Feature", "id": 195, "properties": { "Nom": "Royal Thai Air Force", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.621655, 13.917885 ] } },
-{ "type": "Feature", "id": 196, "properties": { "Nom": "Khu Khot", Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+{ "type": "Feature", "id": 196, "properties": { "Nom": "Khu Khot", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.646519, 13.932344 ] } },
 
 { "type": "Feature", "id": 201, "properties": { "Nom": "Suvarnabhumi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
