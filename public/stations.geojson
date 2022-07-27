@@ -131,6 +131,12 @@
   "geometry": { "type": "Point", "coordinates": [ 100.609408, 13.679874 ] } },
 { "type": "Feature", "id": 163, "properties": { "Nom": "Punnawithi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.608974, 13.689298 ] } },
+{ "type": "Feature", "id": 164, "properties": { "Nom": "Bang Chak", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.605304, 13.696672 ] } },
+{ "type": "Feature", "id": 165, "properties": { "Nom": "On Hut", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.601072, 13.705658 ] } },
+{ "type": "Feature", "id": 166, "properties": { "Nom": "Phra Khanong", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.591158, 13.715231 ] } },
 
 { "type": "Feature", "id": 201, "properties": { "Nom": "Suvarnabhumi", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.751286, 13.694265 ] } },
