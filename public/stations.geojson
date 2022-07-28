@@ -90,7 +90,9 @@
   "geometry": { "type": "Point", "coordinates": [ 100.600154, 13.743001 ] } },
 { "type": "Feature", "id": 206, "properties": { "Nom": "Makkasan", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.561144, 13.750911 ] } },
-{ "type": "Feature", "id": 207, "properties": { "Nom": "Phaya Thai", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+{ "type": "Feature", "id": 207, "properties": { "Nom": "Ratchaprarop", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+  "geometry": { "type": "Point", "coordinates": [ 100.542117, 13.755111 ] } },
+{ "type": "Feature", "id": 208, "properties": { "Nom": "Phaya Thai", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.533829, 13.756966 ] } }
 ]
 }
