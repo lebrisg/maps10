@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type": "Feature", "id": 101, "properties": { "Nom": "Bang Wa", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
+{ "type": "Feature", "id": 101, "properties": { "Nom": "Bang Wa", "Lieu": "6h-24h", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.457815, 13.720797 ] } },
 { "type": "Feature", "id": 102, "properties": { "Nom": "Wutthakat", "Lieu": "", "Metro": "", "Date": "08/08/2022" }, 
   "geometry": { "type": "Point", "coordinates": [ 100.468968, 13.713006 ] } },
