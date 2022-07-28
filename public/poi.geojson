@@ -8,21 +8,21 @@
 ,
 { "type": "Feature", "id": 3, "properties": { "Nom": "Musée national", "Lieu": "Na Phra That Alley, Bangkok 10200, Thaïlande", "Horaires": "9h-16h sauf lundi-mardi et jf", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491691, 13.758076 ] } }
 ,
-{ "type": "Feature", "id": 4, "properties": { "Nom": "Wat Pho (monument+massage)", "Lieu": "2 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Horaires": "", "Metro": "Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.493429, 13.746597 ] } }
+{ "type": "Feature", "id": 4, "properties": { "Nom": "Wat Pho (monument+massage)", "Lieu": "2 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Horaires": "8h-18h", "Metro": "Métro Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.493429, 13.746597 ] } }
 ,
-{ "type": "Feature", "id": 5, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
+{ "type": "Feature", "id": 5, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330, Thaïlande", "Horaires": "9h30-15h30 wd / 9h30-13h we - séances à 11h/14h", "Metro": "Métro Sam Yan", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
 ,
-{ "type": "Feature", "id": 6, "properties": { "Nom": "Gare Hua Lamphong", "Lieu": "Rong Mueang Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.516647, 13.73877 ] } }
+{ "type": "Feature", "id": 6, "properties": { "Nom": "Gare Hua Lamphong", "Lieu": "Rong Mueang Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "Métro Hua Lamphong", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.516647, 13.73877 ] } }
 ,
 { "type": "Feature", "id": 7, "properties": { "Nom": "Résidence Vivanmek", "Lieu": "5 1 Ratchawithi Rd, Bangkok 10300, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.512435, 13.773993 ] } }
 ,
-{ "type": "Feature", "id": 8, "properties": { "Nom": "Parc Lumpini", "Lieu": "192 Witthayu Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.541543, 13.731412 ] } }
+{ "type": "Feature", "id": 8, "properties": { "Nom": "Parc Lumpini", "Lieu": "192 Witthayu Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "Métro Lumphini", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.541543, 13.731412 ] } }
 ,
-{ "type": "Feature", "id": 9, "properties": { "Nom": "Sea Life", "Lieu": "B2 Floor, Siam Paragon Building, B1, 991 Rama I Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53539, 13.746972 ] } }
+{ "type": "Feature", "id": 9, "properties": { "Nom": "Sea Life", "Lieu": "B2 Floor, Siam Paragon Building, B1, 991 Rama I Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "Métro Siam", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53539, 13.746972 ] } }
 ,
 { "type": "Feature", "id": 10, "properties": { "Nom": "Stade de boxe Rajadamnern", "Lieu": "8 Ratchadamnoen Nok Rd, Bangkok 10100, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.508809, 13.761239 ] } }
 ,
-{ "type": "Feature", "id": 11, "properties": { "Nom": "Musée du Siam", "Lieu": "4 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Horaires": "", "Metro": "Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.494143, 13.744148 ] } }
+{ "type": "Feature", "id": 11, "properties": { "Nom": "Musée du Siam", "Lieu": "4 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Horaires": "10h-18h sauf lundi", "Metro": "Métro Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.494143, 13.744148 ] } }
 ,
 { "type": "Feature", "id": 12, "properties": { "Nom": "Rattanakosin Exhibition Hall", "Lieu": "100 Ratchadamnoen Klang Rd, Bangkok 10200, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50396, 13.755903 ] } }
 ,
