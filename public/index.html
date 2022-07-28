@@ -117,7 +117,7 @@
 	    L.geoJson(data,{
 	      pointToLayer: function(feature, latlng){
 	        var marker = L.marker(latlng,{icon: stationIcon});
-	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Metro + " // " + feature.properties.Date);
+	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Horaires + '<br/>' + feature.properties.Date);
 	        return marker;
 	      }
 	   }).addTo(map);
@@ -133,7 +133,7 @@
 	    L.geoJson(data,{
 	      pointToLayer: function(feature, latlng){
 	        var marker = L.marker(latlng,{icon: stationIcon});
-	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Metro + " // " + feature.properties.Date);
+	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Horaires + '<br/>' + feature.properties.Date);
 	        return marker;
 	      }
 	   }).addTo(map);
