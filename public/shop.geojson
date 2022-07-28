@@ -14,6 +14,6 @@
 ,
 { "type": "Feature", "id": 6, "properties": { "Nom": "Marché de Chatuchak", "Lieu": "Chatuchak, Bangkok 10900, Thaïlande", "Metro": "Kamphaeng Phet", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.54993, 13.79866 ] } }
 ,
-{ "type": "Feature", "id": 7, "properties": { "Nom": "Carnival Outlet Village", "Lieu": "JPPW+P3 Bang Chalong, Bang Phli, Province de Samut Prakan, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.743781, 13.638355 ] } }
+{ "type": "Feature", "id": 7, "properties": { "Nom": "Central Outlet Village", "Lieu": "JPQV+CQ Bang Chalong, Bang Phli, Province de Samut Prakan, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.74450, 13.63855 ] } }
 ]
 }
