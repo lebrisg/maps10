@@ -170,7 +170,18 @@
 	    L.geoJson(data,{
 	      pointToLayer: function(feature,latlng){
 	        var marker = L.marker(latlng);
-	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Horaires + '<br/>' + feature.properties.Metro + '<br/>' + feature.properties.Date);
+                var texte = feature.properties.Nom;
+                if( feature.properties.Lieu != "" ) {
+                  texte += '<br/>' + feature.properties.Lieu;
+                }
+                if( feature.properties.Horaires != "" ) {
+                  texte += '<br/>' + feature.properties.Horaires;
+                }
+                if( feature.properties.Metro != "" ) {
+                  texte += '<br/>' + feature.properties.Metro;
+                }
+                texte += '<br/>' + feature.properties.Date;
+	        marker.bindPopup(texte);
 	        return marker;
 	      }
 	     }).addTo(map);
