@@ -2,53 +2,53 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "id": 1, "properties": { "Nom": "Grand Palais", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Horaires": "8h30-15h30", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491434, 13.749864 ] } }
+{ "type": "Feature", "id": 1, "properties": { "Nom": "Grand Palais", "Lieu": "Na Phra Lan Rd, Bangkok 10200", "Horaires": "8h30-15h30", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491434, 13.749864 ] } }
 ,
-{ "type": "Feature", "id": 2, "properties": { "Nom": "Bouddha d'émeraude", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Horaires": "8h30-15h30", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.492748, 13.751604 ] } }
+{ "type": "Feature", "id": 2, "properties": { "Nom": "Bouddha d'émeraude", "Lieu": "Na Phra Lan Rd, Bangkok 10200", "Horaires": "8h30-15h30", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.492748, 13.751604 ] } }
 ,
-{ "type": "Feature", "id": 3, "properties": { "Nom": "Musée national", "Lieu": "Na Phra That Alley, Bangkok 10200, Thaïlande", "Horaires": "9h-16h sauf lundi-mardi et jf", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491691, 13.758076 ] } }
+{ "type": "Feature", "id": 3, "properties": { "Nom": "Musée national", "Lieu": "Na Phra That Alley, Bangkok 10200", "Horaires": "9h-16h sauf lundi-mardi et jf", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491691, 13.758076 ] } }
 ,
-{ "type": "Feature", "id": 4, "properties": { "Nom": "Wat Pho (monument+massage)", "Lieu": "2 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Horaires": "8h-18h", "Metro": "Métro Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.493429, 13.746597 ] } }
+{ "type": "Feature", "id": 4, "properties": { "Nom": "Wat Pho (monument+massage)", "Lieu": "2 Sanam Chai Rd, Bangkok 10200", "Horaires": "8h-18h", "Metro": "Métro Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.493429, 13.746597 ] } }
 ,
-{ "type": "Feature", "id": 5, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330, Thaïlande", "Horaires": "9h30-15h30 wd / 9h30-13h we - séances à 11h/14h", "Metro": "Métro Sam Yan", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
+{ "type": "Feature", "id": 5, "properties": { "Nom": "Queen Saovabha Memorial Institute", "Lieu": "1871 Rama IV Rd, Bangkok 10330", "Horaires": "9h30-15h30 wd / 9h30-13h we - séances à 11h/14h", "Metro": "Métro Sam Yan", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.532767, 13.732903 ] } }
 ,
-{ "type": "Feature", "id": 6, "properties": { "Nom": "Gare Hua Lamphong", "Lieu": "Rong Mueang Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "Métro Hua Lamphong", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.516647, 13.73877 ] } }
+{ "type": "Feature", "id": 6, "properties": { "Nom": "Gare Hua Lamphong", "Lieu": "Rong Mueang Rd, Bangkok 10330", "Horaires": "", "Metro": "Métro Hua Lamphong", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.516647, 13.73877 ] } }
 ,
-{ "type": "Feature", "id": 7, "properties": { "Nom": "Résidence Vivanmek", "Lieu": "5 1 Ratchawithi Rd, Bangkok 10300, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.512435, 13.773993 ] } }
+{ "type": "Feature", "id": 7, "properties": { "Nom": "Résidence Vivanmek", "Lieu": "5 1 Ratchawithi Rd, Bangkok 10300", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.512435, 13.773993 ] } }
 ,
-{ "type": "Feature", "id": 8, "properties": { "Nom": "Parc Lumpini", "Lieu": "192 Witthayu Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "Métro Lumphini", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.541543, 13.731412 ] } }
+{ "type": "Feature", "id": 8, "properties": { "Nom": "Parc Lumpini", "Lieu": "192 Witthayu Rd, Bangkok 10330", "Horaires": "", "Metro": "Métro Lumphini", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.541543, 13.731412 ] } }
 ,
-{ "type": "Feature", "id": 9, "properties": { "Nom": "Sea Life", "Lieu": "B2 Floor, Siam Paragon Building, B1, 991 Rama I Rd, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "Métro Siam", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53539, 13.746972 ] } }
+{ "type": "Feature", "id": 9, "properties": { "Nom": "Sea Life", "Lieu": "B2 Floor, Siam Paragon Building, B1, 991 Rama I Rd, Bangkok 10330", "Horaires": "", "Metro": "Métro Siam", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53539, 13.746972 ] } }
 ,
-{ "type": "Feature", "id": 10, "properties": { "Nom": "Stade de boxe Rajadamnern", "Lieu": "8 Ratchadamnoen Nok Rd, Bangkok 10100, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.508809, 13.761239 ] } }
+{ "type": "Feature", "id": 10, "properties": { "Nom": "Stade de boxe Rajadamnern", "Lieu": "8 Ratchadamnoen Nok Rd, Bangkok 10100", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.508809, 13.761239 ] } }
 ,
-{ "type": "Feature", "id": 11, "properties": { "Nom": "Musée du Siam", "Lieu": "4 Sanam Chai Rd, Bangkok 10200, Thaïlande", "Horaires": "10h-18h sauf lundi", "Metro": "Métro Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.494143, 13.744148 ] } }
+{ "type": "Feature", "id": 11, "properties": { "Nom": "Musée du Siam", "Lieu": "4 Sanam Chai Rd, Bangkok 10200", "Horaires": "10h-18h sauf lundi", "Metro": "Métro Sanam Chai", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.494143, 13.744148 ] } }
 ,
-{ "type": "Feature", "id": 12, "properties": { "Nom": "Rattanakosin Exhibition Hall", "Lieu": "100 Ratchadamnoen Klang Rd, Bangkok 10200, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50396, 13.755903 ] } }
+{ "type": "Feature", "id": 12, "properties": { "Nom": "Rattanakosin Exhibition Hall", "Lieu": "100 Ratchadamnoen Klang Rd, Bangkok 10200", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50396, 13.755903 ] } }
 ,
-{ "type": "Feature", "id": 13, "properties": { "Nom": "Stade de boxe Lumpinee", "Lieu": "6 Ram Inthra Rd, Bangkok 10220, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.608866, 13.867164 ] } }
+{ "type": "Feature", "id": 13, "properties": { "Nom": "Stade de boxe Lumpinee", "Lieu": "6 Ram Inthra Rd, Bangkok 10220", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.608866, 13.867164 ] } }
 ,
-{ "type": "Feature", "id": 14, "properties": { "Nom": "Jim Thomson's House", "Lieu": "6 Kasem San 2 Alley, Bangkok 10330, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.528378, 13.749228 ] } }
+{ "type": "Feature", "id": 14, "properties": { "Nom": "Jim Thomson's House", "Lieu": "6 Kasem San 2 Alley, Bangkok 10330", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.528378, 13.749228 ] } }
 ,
-{ "type": "Feature", "id": 15, "properties": { "Nom": "Roof top Baiyoke II", "Lieu": "222/146 ชั้น LG, Ratchaprarop Rd, Bangkok 10400, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.540631, 13.754788 ] } }
+{ "type": "Feature", "id": 15, "properties": { "Nom": "Roof top Baiyoke II", "Lieu": "222/146 ชั้น LG, Ratchaprarop Rd, Bangkok 10400", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.540631, 13.754788 ] } }
 ,
-{ "type": "Feature", "id": 16, "properties": { "Nom": "Wat Saket / Golden Mount", "Lieu": "344 Thanon Chakkraphatdi Phong, Bangkok 10100, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.506685, 13.753871 ] } }
+{ "type": "Feature", "id": 16, "properties": { "Nom": "Wat Saket / Golden Mount", "Lieu": "344 Thanon Chakkraphatdi Phong, Bangkok 10100", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.506685, 13.753871 ] } }
 ,
-{ "type": "Feature", "id": 17, "properties": { "Nom": "Wat Benchama Bophit", "Lieu": "Khwaeng Dusit, Bangkok 10300, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.514206, 13.766532 ] } }
+{ "type": "Feature", "id": 17, "properties": { "Nom": "Wat Benchama Bophit", "Lieu": "Khwaeng Dusit, Bangkok 10300", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.514206, 13.766532 ] } }
 ,
-{ "type": "Feature", "id": 18, "properties": { "Nom": "Suan Pakkad Palace", "Lieu": "352 Thanon Si Ayutthaya, Bangkok 10400, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53743, 13.75675 ] } }
+{ "type": "Feature", "id": 18, "properties": { "Nom": "Suan Pakkad Palace", "Lieu": "352 Thanon Si Ayutthaya, Bangkok 10400", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.53743, 13.75675 ] } }
 ,
-{ "type": "Feature", "id": 19, "properties": { "Nom": "Chinatown", "Lieu": "1001 Song Wat Rd, Bangkok, Thaïlande", "Horaires": "", "Metro": "Hua Lamphong", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50866, 13.73756 ] } }
+{ "type": "Feature", "id": 19, "properties": { "Nom": "Chinatown", "Lieu": "1001 Song Wat Rd, Bangkok", "Horaires": "", "Metro": "Hua Lamphong", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.50866, 13.73756 ] } }
 ,
-{ "type": "Feature", "id": 20, "properties": { "Nom": "Stade de Channel 7", "Lieu": "998, 1 Soi Phahon Yothin 18/1, Chatuchak, Bangkok 10900, Thaïlande", "Horaires": "", "Metro": "Mo Chit", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.557089, 13.803273 ] } }
+{ "type": "Feature", "id": 20, "properties": { "Nom": "Stade de Channel 7", "Lieu": "998, 1 Soi Phahon Yothin 18/1, Chatuchak, Bangkok 10900", "Horaires": "", "Metro": "Mo Chit", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.557089, 13.803273 ] } }
 ,
-{ "type": "Feature", "id": 21, "properties": { "Nom": "Cotton Sala Daeng Hotel", "Lieu": "14/1 Soi Sathon 2, Bangkok 10500, Thaïlande", "Horaires": "", "Metro": "Lumphini", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.54179, 13.72600 ] } }
+{ "type": "Feature", "id": 21, "properties": { "Nom": "Cotton Sala Daeng Hotel", "Lieu": "14/1 Soi Sathon 2, Bangkok 10500", "Horaires": "", "Metro": "Lumphini", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.54179, 13.72600 ] } }
 ,
-{ "type": "Feature", "id": 22, "properties": { "Nom": "Benchakitti Forest Park", "Lieu": "Rama IV Rd, Khlong Toei, Bangkok 10110, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.55402, 13.72864 ] } }
+{ "type": "Feature", "id": 22, "properties": { "Nom": "Benchakitti Forest Park", "Lieu": "Rama IV Rd, Khlong Toei, Bangkok 10110", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.55402, 13.72864 ] } }
 ,
-{ "type": "Feature", "id": 23, "properties": { "Nom": "Gare Thonburi", "Lieu": "Siri Rat, Bangkok Noi, Bangkok 10700, Thaïlande", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.478747, 13.760593 ] } }
+{ "type": "Feature", "id": 23, "properties": { "Nom": "Gare Thonburi", "Lieu": "Siri Rat, Bangkok Noi, Bangkok 10700", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.478747, 13.760593 ] } }
 ,
-{ "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
+{ "type": "Feature", "id": 30, "properties": { "Nom": "Elephants World", "Lieu": "90, Wang Dong, Mueang Kanchanaburi District, Kanchanaburi 71190", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 99.32281, 14.13492 ] } }
 ,
 { "type": "Feature", "id": 51, "properties": { "Nom": "Universal Studios Singapore", "Lieu": "8 Sentosa Gateway, Singapour 098269", "Horaires": "", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 103.82380, 1.25406 ] } }
 ,
