@@ -80,7 +80,12 @@
 	    L.geoJson(data,{
 	      pointToLayer: function(feature, latlng){
 	        var marker = L.marker(latlng, {icon: shopIcon});
-	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Metro + " // " + feature.properties.Date);
+                var texte = feature.properties.Nom + '<br/>' + feature.properties.Lieu;
+                if( feature.properties.Metro != "" ) {
+                  texte += '<br/>' + feature.properties.Metro;
+                }
+                texte += '<br/>' + feature.properties.Date;
+	        marker.bindPopup(texte);
 	        return marker;
 	      }
 	     }).addTo(map);
