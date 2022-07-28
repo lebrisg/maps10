@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "id": 1, "properties": { "Nom": "Grand Palais", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Metro": "10h-18h sauf lundi", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491434, 13.749864 ] } }
+{ "type": "Feature", "id": 1, "properties": { "Nom": "Grand Palais", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Metro": "8h30-15h30", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.491434, 13.749864 ] } }
 ,
 { "type": "Feature", "id": 2, "properties": { "Nom": "Bouddha d'émeraude", "Lieu": "Na Phra Lan Rd, Bangkok 10200, Thaïlande", "Metro": "", "Date": "08/2022"}, "geometry": { "type": "Point", "coordinates": [ 100.492748, 13.751604 ] } }
 ,
