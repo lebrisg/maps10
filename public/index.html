@@ -39,19 +39,19 @@
           crossorigin=""></script>
 	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script> 
 	<script>
-	  var map = L.map('map').setView([13.752558, 100.49336], 15);
+	  var map = L.map('map').setView([13.759227, 100.524731], 12);
 	  var markerLayerGroup = L.layerGroup().addTo(map);
           L.tileLayer('http://{s}.tile.osm-tools.org/osm/{z}/{x}/{y}.png', {
             maxZoom: 18,
             attribution: 'Map &copy; <a href="http://osm-tools.org">osm-tools.org</a> data ODbL &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 	  }).addTo(map);
 	  L.easyButton('<strong>B</strong>', function(btn, map){
-            var bangkok = [13.752558, 100.49336];
-            map.setView(bangkok, 14);
+            var Bangkok = [13.759227, 100.524731];
+            map.setView(Bangkok, 12);
           }).addTo(map);
-	  L.easyButton('<strong>S</strong>', function(btn, map){
-            var singapour = [1.342269, 103.811531];
-            map.setView(singapour, 12);
+	  L.easyButton('<strong>K</strong>', function(btn, map){
+            var KohTao = [10.09458, 99.83791];
+            map.setView(KohTao, 13);
           }).addTo(map);
 
 	  // Load food data GeoJSON from an external file
@@ -172,6 +172,11 @@
  	  // Load data LightBlue boat line
           $.getJSON("LightBlue.geojson",function(data){
             L.geoJson(data, { "color": "#00FFFF" }).addTo(map);
+          }); 
+
+ 	  // Load data Purple metro line
+          $.getJSON("Purple.geojson",function(data){
+            L.geoJson(data, { "color": "#800080" }).addTo(map);
           }); 
 
 	  // Load GeoJSON from an external file

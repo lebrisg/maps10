@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "id": 1, "properties": { "Nom": "Lane2"}, "geometry": { "type": "LineString", "coordinates": [ [ 100.49521, 13.721084 ], [ 100.502726, 13.720953 ], [ 100.514216, 13.718801 ] ] } }
-]
-}

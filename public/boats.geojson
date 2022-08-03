@@ -11,7 +11,7 @@
   "geometry": { "type": "Point", "coordinates": [ 100.513487, 13.813025 ] } },
 { "type": "Feature", "id": 6, "properties": { "Nom": "Wat Soi Thong Pier", "Horaires": "6h-19h", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.517483, 13.812097 ] } },
-{ "type": "Feature", "id": 7, "properties": { "Nom": "Bang Po", "Horaires": "6h-19h", "Metro": "", "Date": "08/2022"}, 
+{ "type": "Feature", "id": 7, "properties": { "Nom": "Bang Po", "Horaires": "6h-19h", "Metro": "MRT Bang Pho", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.518835, 13.806336 ] } },
 { "type": "Feature", "id": 8, "properties": { "Nom": "Kiak Kai", "Hoaires": "6h-19h", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.517113, 13.798824 ] } },
@@ -47,7 +47,7 @@
   "geometry": { "type": "Point", "coordinates": [ 100.51317, 13.728489 ] } },
 { "type": "Feature", "id": 24, "properties": { "Nom": "Oriental", "Horaires": "6h-19h", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.513519, 13.723314 ] } },
-{ "type": "Feature", "id": 25, "properties": { "Nom": "Sathorn/Saphan Taksin", "Horaires": "6h-19h", "Metro": "", "Date": "08/2022"}, 
+{ "type": "Feature", "id": 25, "properties": { "Nom": "Sathorn/Saphan Taksin", "Horaires": "6h-19h", "Metro": "BTS Saphan Taksin", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.512709, 13.718864 ] } },
 { "type": "Feature", "id": 26, "properties": { "Nom": "Wat Worachanyawas", "Horaires": "6h-19h", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.506862, 13.709545 ] } },
@@ -61,7 +61,7 @@
   "geometry": { "type": "Point", "coordinates": [ 100.524312, 13.749822 ] } },
 { "type": "Feature", "id": 54, "properties": { "Nom": "Ban Krua Nua", "Horaires": "5h30-20h30/19h we", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.527568, 13.749661 ] } },
-{ "type": "Feature", "id": 55, "properties": { "Nom": "Hua Chang (Siam Square)", "Horaires": "5h30-20h30/19h we", "Metro": "Métros Ratchathewi/National Stadium/Siam", "Date": "08/2022"}, 
+{ "type": "Feature", "id": 55, "properties": { "Nom": "Hua Chang (Siam Square)", "Horaires": "5h30-20h30/19h we", "Metro": "BTS Ratchathewi/BTS National Stadium/BTS Siam", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.530905, 13.749202 ] } },
 { "type": "Feature", "id": 56, "properties": { "Nom": "Pratunam Pier", "Horaires": "5h30-20h30/19h we", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.54153, 13.74923 ] } },
@@ -73,7 +73,7 @@
   "geometry": { "type": "Point", "coordinates": [ 100.554063, 13.748337 ] } },
 { "type": "Feature", "id": 60, "properties": { "Nom": "Nana Chard", "Horaires": "5h30-20h30/19h we", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.559117, 13.748327 ] } },
-{ "type": "Feature", "id": 61, "properties": { "Nom": "Saphan Asok", "Horaires": "5h30-20h30/19h we", "Metro": "Métro Phetchaburi", "Date": "08/2022"}, 
+{ "type": "Feature", "id": 61, "properties": { "Nom": "Saphan Asok", "Horaires": "5h30-20h30/19h we", "Metro": "ARL Phetchaburi", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.562947, 13.747847 ] } },
 { "type": "Feature", "id": 62, "properties": { "Nom": "Prasan Mit", "Horaires": "5h30-20h30/19h we", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.565742, 13.747389 ] } },
@@ -90,6 +90,11 @@
 { "type": "Feature", "id": 68, "properties": { "Nom": "Vijit School", "Horaires": "5h30-20h30/19h we", "Metro": "", "Date": "08/2022"}, 
   "geometry": { "type": "Point", "coordinates": [ 100.594071, 13.741485 ] } },
 { "type": "Feature", "id": 69, "properties": { "Nom": "Klong Tan", "Horaires": "5h30-20h30/19h we", "Metro": "", "Date": "08/2022"}, 
-  "geometry": { "type": "Point", "coordinates": [ 100.598266, 13.741912 ] } }
+  "geometry": { "type": "Point", "coordinates": [ 100.598266, 13.741912 ] } },
+
+{ "type": "Feature", "id": 101, "properties": { "Nom": "Quai Iconsiam", "Horaires": "17h samedi-dimanche / 19h tlj / 19h30 tlj", "Metro": "", "Date": "08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.51177, 13.72621 ] } },
+{ "type": "Feature", "id": 102, "properties": { "Nom": "Asiatique The Riverfront", "Horaires": "19h tlj", "Metro": "", "Date": "08/2022"}, 
+  "geometry": { "type": "Point", "coordinates": [ 100.501685, 13.704949 ] } }
 ]
 }
