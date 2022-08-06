@@ -1,214 +1,217 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Maps</title> 
-  	<link rel="stylesheet" href="http://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
-          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-          crossorigin=""/>
-	<!--[if lte IE 8]>
-    	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
-	<![endif]-->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
-	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<link href='http://fonts.googleapis.com/css?family=Milonga' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<style type="text/css">
-		body {
-    		    padding: 0;
-		    margin: 0;
-		}
-		html, body, #map {
-		    height: 100%;
-		    font-family: 'Milonga', cursive;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maps</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin=""/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+    <link href='https://fonts.googleapis.com/css?family=Milonga' rel='stylesheet' type='text/css'>
+
+        <style type="text/css">
+                body {
+                    padding: 0;
+                    margin: 0;
+                }
+                html, body, #map {
+                    height: 100%;
+                    font-family: 'Milonga', cursive;
                     cursor: crosshair;
-		}
-		.leaflet-container .leaflet-control-zoom {
-		    margin-left: 13px;
-		    margin-top: 70px;
-		}
-		#map { z-index: 1;}
-		#title { z-index: 2; position: absolute; left: 10px; }
-	</style>	
-	
+                }
+                .leaflet-container .leaflet-control-zoom {
+                    margin-left: 13px;
+                    margin-top: 70px;
+                }
+                #map { z-index: 1; }
+                #title { z-index: 2; position: absolute; left: 10px; }
+        </style>
 </head>
 <body>
-	<h1 id="title">Maps</h1>
-	<div id="map"></div>
-        <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
-          integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
-          crossorigin=""></script>
-	<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script> 
-	<script>
-	  var map = L.map('map').setView([13.759227, 100.524731], 12);
-	  var markerLayerGroup = L.layerGroup().addTo(map);
-          L.tileLayer('http://{s}.tile.osm-tools.org/osm/{z}/{x}/{y}.png', {
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <h1 id="title">Maps</h1>
+  <div id='map'></div>
+  <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" 
+    integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+  <script>
+          var map = L.map('map').setView([13.759227, 100.524731], 12);
+          //var markerLayerGroup = L.layerGroup().addTo(map);
+          L.tileLayer('https://{s}.tile.osm-tools.org/osm/{z}/{x}/{y}.png', {
             maxZoom: 18,
             attribution: 'Map &copy; <a href="http://osm-tools.org">osm-tools.org</a> data ODbL &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-	  }).addTo(map);
-	  L.easyButton('<strong>B</strong>', function(btn, map){
+          }).addTo(map);
+          L.easyButton('<strong>B</strong>', function(btn, map){
             var Bangkok = [13.759227, 100.524731];
             map.setView(Bangkok, 12);
           }).addTo(map);
-	  L.easyButton('<strong>K</strong>', function(btn, map){
+          L.easyButton('<strong>K</strong>', function(btn, map){
             var KohTao = [10.09458, 99.83791];
             map.setView(KohTao, 13);
           }).addTo(map);
 
-	  // Load food data GeoJSON from an external file
-	  $.getJSON("food.geojson", function(data){
+          //var marker = L.marker([13.759227, 100.524731]).addTo(map);
+          //marker.bindPopup("Texte");
+
+          // Load food data GeoJSON from an external file
+          $.getJSON("food.geojson", function(data){
             var foodIcon = L.icon({
               iconUrl: 'food.png',
               iconSize: [14, 16]
             });
-	    // Add GeoJSON layer to the map once the file is loaded
-	    L.geoJson(data,{
-	      pointToLayer: function(feature, latlng){
-	        var marker = L.marker(latlng, {icon: foodIcon});
-	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Metro + " // " + feature.properties.Date);
-	        return marker;
-	      }
-	     }).addTo(map);
-	  });
+            // Add GeoJSON layer to the map once the file is loaded
+            L.geoJson(data,{
+              pointToLayer: function(feature, latlng){
+                var marker = L.marker(latlng, {icon: foodIcon});
+                marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Lieu + '<br/>' + feature.properties.Metro + " // " + feature.properties.Date);
+                return marker;
+              }
+             }).addTo(map);
+          });
 
-	  // Load shop data GeoJSON from an external file
-	  $.getJSON("shop.geojson", function(data){
+          // Load shop data GeoJSON from an external file
+
+          $.getJSON("shop.geojson", function(data){
+
             var shopIcon = L.icon({
+
               iconUrl: 'shop.png',
+
               iconSize: [14, 16]
+
             });
-	    // Add GeoJSON layer to the map once the file is loaded
-	    L.geoJson(data,{
-	      pointToLayer: function(feature, latlng){
-	        var marker = L.marker(latlng, {icon: shopIcon});
+
+            // Add GeoJSON layer to the map once the file is loaded
+            L.geoJson(data,{
+              pointToLayer: function(feature, latlng){
+                var marker = L.marker(latlng, {icon: shopIcon});
                 var texte = feature.properties.Nom + '<br/>' + feature.properties.Lieu;
                 if( feature.properties.Metro != "" ) {
                   texte += '<br/>' + feature.properties.Metro;
                 }
                 texte += '<br/>' + feature.properties.Date;
-	        marker.bindPopup(texte);
-	        return marker;
-	      }
-	     }).addTo(map);
-	  });
+                marker.bindPopup(texte);
+                return marker;
+              }
+             }).addTo(map);
+          });
 
-	  // Load boat data GeoJSON from an external file
-	  $.getJSON("boats.geojson", function(data){
+          // Load boat data GeoJSON from an external file
+
+          $.getJSON("boats.geojson", function(data){
+
             var boatIcon = L.icon({
+
               iconUrl: 'boat.png',
+
               iconSize: [20,20]
+
             });
-	    // Add GeoJSON layer to the map once the file is loaded
-	    L.geoJson(data,{
-	      pointToLayer: function(feature, latlng){
-	        var marker = L.marker(latlng,{icon: boatIcon});
+
+            // Add GeoJSON layer to the map once the file is loaded
+            L.geoJson(data,{
+              pointToLayer: function(feature, latlng){
+                var marker = L.marker(latlng,{icon: boatIcon});
                 var texte = feature.properties.Nom + '<br/>' + feature.properties.Horaires;
                 if( feature.properties.Metro != "" ) {
                   texte += '<br/>' + feature.properties.Metro;
                 }
                 texte += '<br/>' + feature.properties.Date;
-	        marker.bindPopup(texte);
-	        return marker;
-	      }
-	   }).addTo(map);
+                marker.bindPopup(texte);
+                return marker;
+              }
+           }).addTo(map);
           });
 
-	  // Load metro data GeoJSON from an external file
-	  $.getJSON("stations.geojson", function(data){
+          // Load metro data GeoJSON from an external file
+          $.getJSON("stations.geojson", function(data){
             var stationIcon = L.icon({
               iconUrl: 'station.png',
               iconSize: [15,15]
             });
-	    // Add GeoJSON layer to the map once the file is loaded
-	    L.geoJson(data,{
-	      pointToLayer: function(feature, latlng){
-	        var marker = L.marker(latlng,{icon: stationIcon});
-	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Horaires + '<br/>' + feature.properties.Date);
-	        return marker;
-	      }
-	   }).addTo(map);
+            // Add GeoJSON layer to the map once the file is loaded
+            L.geoJson(data,{
+              pointToLayer: function(feature, latlng){
+                var marker = L.marker(latlng,{icon: stationIcon});
+                marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Horaires + '<br/>' + feature.properties.Date);
+                return marker;
+              }
+           }).addTo(map);
           });
 
-	  // Load metro data GeoJSON from an external file
-	  $.getJSON("stationsS.geojson", function(data){
+          // Load metro data GeoJSON from an external file
+          $.getJSON("stationsS.geojson", function(data){
             var stationIcon = L.icon({
               iconUrl: 'stationS.png',
               iconSize: [15,15]
             });
-	    // Add GeoJSON layer to the map once the file is loaded
-	    L.geoJson(data,{
-	      pointToLayer: function(feature, latlng){
-	        var marker = L.marker(latlng,{icon: stationIcon});
-	        marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Horaires + '<br/>' + feature.properties.Date);
-	        return marker;
-	      }
-	   }).addTo(map);
+            // Add GeoJSON layer to the map once the file is loaded
+            L.geoJson(data,{
+              pointToLayer: function(feature, latlng){
+                var marker = L.marker(latlng,{icon: stationIcon});
+                marker.bindPopup(feature.properties.Nom + '<br/>' + feature.properties.Horaires + '<br/>' + feature.properties.Date);
+                return marker;
+              }
+           }).addTo(map);
           });
 
- 	  // Load data LightGreen metro line
+          // Load data LightGreen metro line
           $.getJSON("LightGreen.geojson",function(data){
             L.geoJson(data, { "color": "#90EE90" }).addTo(map);
-          }); 
+          });
 
- 	  // Load data Pink metro line
+          // Load data Pink metro line
           $.getJSON("Pink.geojson",function(data){
             L.geoJson(data, { "color": "#FF00FF" }).addTo(map);
           });
- 
- 	  // Load data DarkBlue metro line
+
+          // Load data DarkBlue metro line
           $.getJSON("DarkBlue.geojson",function(data){
             L.geoJson(data, { "color": "#00008B" }).addTo(map);
-          }); 
+          });
 
- 	  // Load data DarkGreen metro line
+          // Load data DarkGreen metro line
           $.getJSON("DarkGreen.geojson",function(data){
             L.geoJson(data, { "color": "#006400" }).addTo(map);
-          }); 
+          });
 
- 	  // Load data Orange boat line
+          // Load data Orange boat line
           $.getJSON("Orange.geojson",function(data){
             L.geoJson(data, { "color": "#FFA500" }).addTo(map);
-          }); 
+          });
 
- 	  // Load data LightBlue boat line
+          // Load data LightBlue boat line
           $.getJSON("LightBlue.geojson",function(data){
             L.geoJson(data, { "color": "#00FFFF" }).addTo(map);
-          }); 
+          });
 
- 	  // Load data Purple metro line
+          // Load data Purple metro line
           $.getJSON("Purple.geojson",function(data){
             L.geoJson(data, { "color": "#800080" }).addTo(map);
-          }); 
+          });
 
-	  // Load GeoJSON from an external file
-	  $.getJSON("poi.geojson",function(data){
-	    // Add GeoJSON layer to the map once the file is loaded
-	    L.geoJson(data,{
-	      pointToLayer: function(feature,latlng){
-	        var marker = L.marker(latlng);
-                var texte = feature.properties.Nom;
-                if( feature.properties.Lieu != "" ) {
-                  texte += '<br/>' + feature.properties.Lieu;
-                }
-                if( feature.properties.Horaires != "" ) {
-                  texte += '<br/>' + feature.properties.Horaires;
-                }
-                if( feature.properties.Metro != "" ) {
-                  texte += '<br/>' + feature.properties.Metro;
-                }
-                texte += '<br/>' + feature.properties.Date;
-	        marker.bindPopup(texte);
-	        return marker;
-	      }
-	     }).addTo(map);
-	  });
-	  var popup = L.popup();
+          // Load GeoJSON from an external file
+          $.getJSON("poi.geojson",function(data){
+            // Add GeoJSON layer to the map once the file is loaded
+            L.geoJson(data,{
+              pointToLayer: function(feature,latlng){
+                var marker = L.marker(latlng);
+                marker.bindPopup("Texte");
+                return marker;
+              }
+             }).addTo(map);
+          });
+
+          var popup = L.popup();
           map.on('click', function(e) {
             popup
               .setLatLng(e.latlng)
               .setContent(e.latlng.toString())
               .openOn(map)
           });
-	</script>
+  </script>
+
 </body>
 </html>
+
 
