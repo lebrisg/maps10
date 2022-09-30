@@ -19,19 +19,6 @@ spec:
       serviceAccountName: pipeline
       pipelineRef:
         name: maps10
-      params:
-      - name: APP_NAME
-        value: $(tt.params.APP_NAME) 
-      - name: GIT_REPO_URL 
-        value: $(tt.params.GIT_REPO)
-      - name: GIT_REVISION 
-        value: $(tt.params.GIT_REVISION)
-      - name: IMAGE_NAME
-        value: image-registry.openshift-image-registry.svc:5000/maps10/maps10
-      - name: PATH_CONTEXT
-        value: .
-      - name: VERSION
-        value: 14-ubi7
       workspaces:
       - name: workspace
         volumeClaimTemplate:
