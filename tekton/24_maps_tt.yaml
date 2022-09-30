@@ -21,7 +21,7 @@ spec:
         name: maps10
       params:
       - name: APP_NAME
-        value: maps10 
+        value: $(tt.params.APP_NAME) 
       - name: GIT_REPO_URL 
         value: $(tt.params.GIT_REPO)
       - name: GIT_REVISION 
