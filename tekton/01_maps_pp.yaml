@@ -1,33 +1,39 @@
 apiVersion: tekton.dev/v1beta1
 kind: Pipeline
 metadata:
-  name: pp-maps10
+  name: maps10
 spec:
   params:
-  - name: GIT_REPO_NAME
+  - name: APP_NAME
     type: string
     description: Name of the application to be built
-  - name: GIT_REPO_URL
+    default: maps10
+  - name: GIT_REPO
     type: string
     description: Url of the git repository
+    default: https://github.com/lebrisg/maps10.git
   - name: GIT_REVISION
     type: string
     description: Revision to be used from repo of the code for deployment
+    default: ''
   - name: IMAGE_NAME
     type: string
     description: Location of the repo where image has to be pushed
+    default: image-registry.openshift-image-registry.svc:5000/maps10/maps10
   - name: PATH_CONTEXT
     type: string
+    default: .
   - name: VERSION
     type: string
     description: Type of image used
+    default: 16-ubi8
   workspaces:
   - name: workspace
   tasks:
   - name: fetch-repository
     params:
     - name: url
-      value: $(params.GIT_REPO_URL)
+      value: $(params.GIT_REPO)
     - name: revision
       value: $(params.GIT_REVISION)
     - name: subdirectory
@@ -61,7 +67,7 @@ spec:
   - name: deploy
     params:
     - name: SCRIPT
-      value: oc rollout status dc/$(params.GIT_REPO_NAME)
+      value: oc rollout status deploy/$(params.APP_NAME)
     runAfter:
     - build
     taskRef:

@@ -1,2 +1,2 @@
 oc new-project maps10
-oc apply -f tekton
+oc apply -f k8s

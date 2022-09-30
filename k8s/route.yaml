@@ -1,0 +1,19 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: maps10
+  name: maps10
+  namespace: maps10
+spec:
+  host: maps10-maps10.apps.sno.asducode.fr
+  port:
+    targetPort: 8080-tcp
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: maps10
+    weight: 100
+  wildcardPolicy: None

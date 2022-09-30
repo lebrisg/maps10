@@ -1,24 +1,11 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  name: pr-maps10
+  name: maps10-pr
 spec:
   serviceAccountName: pipeline
-  params:
-    - name: GIT_REPO_NAME
-      value: maps-10-git
-    - name: GIT_REPO_URL
-      value: 'https://github.com/lebrisg/maps10.git'
-    - name: GIT_REVISION
-      value: main
-    - name: IMAGE_NAME
-      value: 'image-registry.openshift-image-registry.svc:5000/maps10/maps-10-git'
-    - name: PATH_CONTEXT
-      value: .
-    - name: VERSION
-      value: 14-ubi7
   pipelineRef:
-    name: pp-maps10
+    name: maps10
   workspaces:
   - name: workspace
     volumeClaimTemplate:

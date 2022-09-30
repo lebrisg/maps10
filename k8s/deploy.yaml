@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: maps10
+  name: maps10
+  namespace: maps10
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: maps10
+  template:
+    metadata:
+      labels:
+        app: maps10
+    spec:
+      containers:
+      - image: image-registry.openshift-image-registry.svc:5000/maps10/maps10
+        imagePullPolicy: Always
+        name: maps10
+        ports:
+        - containerPort: 8080
+          protocol: TCP
