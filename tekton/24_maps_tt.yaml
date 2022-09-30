@@ -4,30 +4,30 @@ metadata:
   name: maps10
 spec:
   params:
-  - name: GIT_REPO_URL 
+  - name: GIT_REPO
     description: Url of the git repository
   - name: GIT_REVISION 
     description: Revision to be used from repo of the code for deployment
-  - name: GIT_REPO_NAME 
+  - name: APP_NAME 
     description: The name of the deployment to be created / patched
   resourcetemplates:
   - apiVersion: tekton.dev/v1beta1
     kind: PipelineRun
     metadata:
-      generateName: pr-maps10-$(tt.params.GIT_REPO_NAME)-
+      generateName: maps10-$(tt.params.APP_NAME)-
     spec:
       serviceAccountName: pipeline
       pipelineRef:
-        name: pp-maps10
+        name: maps10
       params:
-      - name: GIT_REPO_NAME
-        value: maps-10-git 
+      - name: APP_NAME
+        value: maps10 
       - name: GIT_REPO_URL 
-        value: $(tt.params.GIT_REPO_URL)
+        value: $(tt.params.GIT_REPO)
       - name: GIT_REVISION 
         value: $(tt.params.GIT_REVISION)
       - name: IMAGE_NAME
-        value: image-registry.openshift-image-registry.svc:5000/maps10/maps-10-git
+        value: image-registry.openshift-image-registry.svc:5000/maps10/maps10
       - name: PATH_CONTEXT
         value: .
       - name: VERSION

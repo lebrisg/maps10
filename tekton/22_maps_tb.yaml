@@ -4,9 +4,9 @@ metadata:
   name: maps10
 spec:
   params:
-  - name: GIT_REPO_URL 
+  - name: GIT_REPO
     value: $(body.repository.url)
-  - name: GIT_REPO_NAME 
+  - name: APP_NAME 
     value: $(body.repository.name)
   - name: GIT_REVISION 
     value: $(body.head_commit.id)
